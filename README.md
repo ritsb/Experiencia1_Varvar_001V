@@ -6,6 +6,7 @@ Coordinador de Equipo	Ricardo Varvar
 Item Actividad	Descripción	Participante
 1	Comienzo Revisando Paginas Similares a mi idea	
 2	Se comienza a escribir el html del proyecto
+3       Se subio el archivo index mas carpetas
 4		
 5		
 6		
