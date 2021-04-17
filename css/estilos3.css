@@ -1,0 +1,239 @@
+@media (min-width: 768px) {  
+    body {  
+      background-color: black; 
+    }  
+  } 
+   #texto1{
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1200%;
+    color: #dc143c;
+    max-width: 30%;
+    min-width: 10%;
+    width: 50%;
+ }
+  
+   #menu{
+       position: absolute;
+       top: 1%;
+       left: 0px;
+       margin: 30px;
+       font-size: 20px;
+       width: 50%;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   ul, li{
+       list-style: none;
+   }
+   .nav li a {
+       background-color:none;
+       color:crimson;
+       text-decoration: none;
+       padding: 10px 15px;
+       display: block;
+   }
+   .nav li a:hover{
+       background-color:#000000;
+       opacity:0.3;
+   }
+   .nav > li{
+       float: left;
+   }
+   .nav li ul{
+       display: none;
+       position: absolute;
+       min-width: 140px;
+   }
+   .nav li:hover > ul{
+       display: block;
+   }
+   .caja2{
+    top:0;
+    width: auto;
+    height: auto;
+    left: 70%;
+    margin: 30px;
+    position: absolute;
+  }
+   #reg{
+       position: absolute;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       color: crimson;
+       font-size: 20px;
+       left: 78.53%;
+       top: 4.8%;
+   }
+   .caja3{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 87%;
+    margin: 30px;
+    top: 0%;
+    }
+    #log{
+        position: absolute;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: crimson;
+        font-size: 20px;
+        left: 85%;
+        top: 4.8%;
+    }
+    #img1{
+        padding: 10px;
+        border: 2px solid gray;
+        margin: 0;
+        top: 80%;
+        left: 2%;
+        position:absolute;
+        max-width: 30%;
+        min-width: 10%;
+        width: 50%;
+    }
+    #img2{
+        width: 500px;
+        padding: 10px;
+        border: 2px solid gray;
+        margin: 0;
+        top: 60%;
+        left: 36%;
+        position:absolute;
+        max-width: 30%;
+        min-width: 10%;
+        width: 50%;
+    }
+    #img3{
+        width: 500px;
+        padding: 10px;
+        border: 2px solid gray;
+        margin: 0;
+        top: 80%;
+        left: 69%;
+        position:absolute;
+        object-position: center;
+        object-fit: cover;
+        max-width: 30%;
+        min-width: 10%;
+        width: 50%;
+    }
+    #img6{
+        width: 500px;
+        padding: 10px;
+        border: 2px solid gray;
+        margin: 0;
+        top: 120%;
+        left: 2%;
+        position:absolute;
+        object-position: center;
+        object-fit: fill;
+        max-width: 30%;
+        min-width: 10%;
+        width: 50%;
+    }
+    #img7{
+        width: 500px;
+        padding: 10px;
+        border: 2px solid gray;
+        margin: 0;
+        top: 95%;
+        left: 36%;
+        position: absolute;
+        object-position: center;
+        object-fit: cover;
+        max-width: 30%;
+        min-width: 10%;
+        width: 50%;
+    }
+    #img8{
+        width: 500px;
+        padding: 10px;
+        border: 2px solid gray;
+        margin: 0;
+        top: 120%;
+        left: 69%;
+        position:absolute;
+        max-width: 30%;
+        min-width: 10%;
+        width: 50%;
+    }
+    #img9{
+        width: 500px;
+        padding: 10px;
+        border: 2px solid gray;
+        margin: 0;
+        top: 165%;
+        left: 2%;
+        object-fit: fill;
+        object-position: center;
+        position:absolute;
+        max-width: 30%;
+        min-width: 10%;
+        width: 50%;
+    }
+    #img10{
+        width: 500px;
+        padding: 10px;
+        border: 2px solid gray;
+        margin: 0;
+        top: 140%;
+        left: 36%;
+        position:absolute;
+        object-position: center;
+        object-fit: cover;
+        max-width: 30%;
+        min-width: 10%;
+        width: 50%;
+    }
+    #img4{
+        width: 500px;
+        padding: 10px;
+        border: 2px solid gray;
+        margin: 0;
+        top: 165%;
+        left: 69%;
+        position:absolute;
+        max-width: 30%;
+        min-width: 10%;
+        width: 50%;
+    }
+    #img5{
+        width: 500px;
+        padding: 10px;
+        border: 2px solid gray;
+        margin: 0;
+        top: 185%;
+        left: 36%;
+        position:absolute; 
+        object-position: center;
+        object-fit: fill;
+        max-width: 30%;
+        min-width: 10%;
+        width: 50%;
+    }
+    
+    h3{
+        font-size: 16px; 
+        color:crimson;   
+      }
+      
+      
+      p{
+        font-size: 17px; 
+        color:crimson; 
+      }
+    
+    
+      p.copyright{
+      color: darkgray;
+      }
+
+  body{
+    background-image: url(https://wallpaperaccess.com/full/4808321.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+  }

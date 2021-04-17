@@ -1,0 +1,288 @@
+#texto1{
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 120px;
+    color: #dc143c;
+ }
+  
+   #menu{
+       position: absolute;
+       top: 1%;
+       left: 0px;
+       margin: 30px;
+       font-size: 20px;
+       width: 50%;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   ul, li{
+       list-style: none;
+   }
+   .nav li a {
+       background-color:none;
+       color:crimson;
+       text-decoration: none;
+       padding: 10px 15px;
+       display: block;
+   }
+   .nav li a:hover{
+       background-color:#000000;
+       opacity:0.3;
+   }
+   .nav > li{
+       float: left;
+   }
+   .nav li ul{
+       display: none;
+       position: absolute;
+       min-width: 140px;
+   }
+   .nav li:hover > ul{
+       display: block;
+   }
+   .caja2{
+    top:0;
+    width: auto;
+    height: auto;
+    left: 70%;
+    margin: 30px;
+    position: absolute;
+  }
+   #reg{
+       position: absolute;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       color: crimson;
+       font-size: 20px;
+       left: 78.53%;
+       top: 4.8%;
+   }
+   .caja3{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 87%;
+    margin: 30px;
+    top: 0%;
+    }
+    #log{
+        position: absolute;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: crimson;
+        font-size: 20px;
+        left: 85%;
+        top: 4.8%;
+    }      
+      .contact_form{  
+        width: 460px; 
+        height: auto;
+        margin: 80px auto;
+        border-radius: 10px;  
+        padding-top: 30px;
+        padding-bottom: 20px;  
+        background-color:transparent; 
+        padding-left: 30px; 
+        left: 68%;
+        position: absolute;
+        width: 100%;
+        min-width: 10%;        
+        max-width: 45%;
+      }
+      
+      
+      input{
+        background-color: #fbfbfb; 
+        width: 408px; 
+        height: 40px; 
+        border-radius: 5px;  
+        border-style: solid; 
+        border-width: 1px; 
+        border-color: #dc143c; 
+        margin-top: 10px;  
+        padding-left: 10px;
+        margin-bottom: 20px; 
+        width: 100%;
+        min-width: 10%;        
+        max-width: 45%;
+      }
+      
+      
+      textarea{
+        background-color: #fbfbfb; 
+        width: 405px; 
+        height: 150px; 
+        border-radius: 5px;  
+        border-style: solid; 
+        border-width: 1px; 
+        border-color: #dc143c; 
+        margin-top: 10px;  
+        padding-left: 10px;
+        margin-bottom: 20px; 
+        padding-top: 15px; 
+        width: 100%;
+        min-width: 10%;        
+        max-width: 45%;
+      }
+      
+      
+      label{
+        display: block; 
+        float: center;  
+      }
+      
+      
+      button{
+        height: 45px; 
+        padding-left: 5px;
+        padding-right: 5px;   
+        margin-bottom: 20px; 
+        margin-top: 10px;   
+        text-transform: uppercase;
+        background-color: #dc143c; 
+        border-color: #dc143c; 
+        border-style: solid; 
+        border-radius: 10px;     
+        cursor: pointer;
+        width: 100%;
+        min-width: 10%;        
+        max-width: 45%;
+      }
+      
+      
+      button p{
+        color: #fff; 
+      }
+      
+      
+      span{
+        color: #dc143c; 
+      }
+      
+      
+      .aviso{
+        font-size: 13px;  
+        color:brown;  
+      }
+      
+      
+      h1{
+        font-size: 39px;  
+        text-align: letf; 
+        padding-bottom: 20px; 
+        color: #dc143c;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      
+      h3{
+        font-size: 16px; 
+        color:brown;  
+        font-family: Arial, Helvetica, sans-serif; 
+      }
+      
+      
+      p{
+        font-size: 17px; 
+        color:crimson; 
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      ::-webkit-input-placeholder {
+       color: #a8a8a8;
+      }
+      
+      
+      ::-webkit-textarea-placeholder {
+       color: #a8a8a8;
+      }
+      
+      
+      .formulario input:focus{
+        outline:0;
+        border: 1px solid #464646;
+      }
+      
+      
+      .formulario textarea:focus{
+        outline:0;
+        border: 1px solid #464646;
+      }
+      p.copyright{
+        color: darkgray;
+      }
+      #texto1{
+        
+        padding: 10px;
+        border: 2px solid gray;
+        margin: 0;
+        position: absolute;
+        top: 20%;
+        left: 3%;
+        color:brown;
+        text-align: justify;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: auto;  
+        width: 100%;
+        min-width: 30%;        
+        max-width: 47.5%;
+     }
+    #texto2{
+        width: 900px;
+        padding: 10px;
+        border: 2px solid gray;
+        margin: 0;
+        position: absolute;
+        top: 40%;
+        left: 3%;
+        color:brown;
+        text-align: justify;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12.5px;
+        width: 100%;
+        min-width: 30%;        
+        max-width: 47.5%;
+        height: auto;
+    }
+    #texto3{
+        width: 900px;
+        padding: 10px;
+        border: 2px solid gray;
+        margin: 0;
+        position: absolute;
+        top: 65.5%;
+        left: 3%;
+        color:brown;
+        text-align: justify;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12.5px;
+        width: 100%;
+        min-width: 30%;        
+        max-width: 47.5%;
+        height: auto;
+    }
+      #texto4{
+        width: 900px;
+        padding: 10px;
+        border: 2px solid gray;
+        margin: 0;
+        position: absolute;
+        top: 90%;
+        left: 3%;
+        color:brown;
+        text-align: justify;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12.5px;
+        width: 100%;
+        min-width: 30%;        
+        max-width: 47.5%;
+        height: auto;
+    }
+body{
+    background-image: url(https://wallpaperaccess.com/full/625497.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    font-family: Arial, Helvetica, sans-serif;
+  }
